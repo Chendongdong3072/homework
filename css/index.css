@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #d8f0ea;
+  }
+#container{
+    width: 1129px;
+    margin:0 auto
+}
+#top,#xuankuang{
+    text-align: center
+}
+#xuankuang input{
+    width: 600px;
+    height: 20px;
+    padding: 15px;
+    border:2px solid black
+}
+#banner{
+    text-align: right;
+    margin-top: 25px
+}
+#banner a{
+    text-decoration: none;
+    color:grey;
+    padding: 5px
+}
+#banner a:hover{
+    background-color: #800000;
+    color:white;
+}
+#xianshi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: peachpuff;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 20px
+}
+#xianshi a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+}
+#xianshi a:hover{
+    /* color: red; */
+    font-weight: bold
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+    padding: 2px
+}
+#contact{
+    text-align: center;
+    background-color: black;
+    padding: 30px
+}
+#contact a:hover{
+    background-color: #800000;
+    color:white;
+}

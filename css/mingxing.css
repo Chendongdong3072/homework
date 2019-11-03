@@ -1,0 +1,12 @@
+.tuijian{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+.tuijian img{
+    border-radius: 50px;
+    transition: 1s;
+}
+.tuijian img:hover{
+    transform: scale(1.03)
+}

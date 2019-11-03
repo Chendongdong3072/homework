@@ -1,0 +1,21 @@
+#bj img{
+    border-radius: 50px;
+}
+#db{
+    text-align: center;
+    background-color: coral;
+    border-radius: 60px;
+    padding: 40px;
+    margin-bottom: 20px
+}
+#db a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px
+}
+#db a:hover{
+    padding: 15px;
+    background-color: #800000;
+    color:white;
+    border-radius: 30px;
+}

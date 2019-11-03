@@ -1,0 +1,39 @@
+
+#tupian img{
+    width: 100%;
+    border-radius: 30px
+}
+#qiuhun,#qiuhun1{
+    text-align: center
+}
+#qiuhun img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+#qiuhun span{
+    font-size: 18px
+}
+#qiuhun2{
+    display: flex;
+    justify-content: space-between;
+}
+#qiuhun2 img,#tupian img,#qiuhun img{
+    transition: 1s
+}
+#qiuhun2 img:hover,#qiuhun3 img:hover{
+    transform: scale(1.1);
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    background-color: black
+}
+#qiuhun3{
+    display: flex;
+    justify-content: space-between;
+}
+#qiuhun3 img{
+    transition: 1s
+}
+#tupian img:hover,#qiuhun img:hover{
+    transform: scale(1.1);
+}

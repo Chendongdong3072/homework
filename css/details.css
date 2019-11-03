@@ -1,0 +1,68 @@
+#index a,#right a,#xiangqing1 a{
+    text-decoration: none;
+    color: black
+}
+#index a:hover,#right a:hover,#xiangqing1 a:hover,#xiangqing1 a:hover,#pinpai a:hover{
+    background-color: #800000;
+    color:white;
+}
+#flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px
+}
+#left img{
+    border-radius: 40px;
+    transition: 1s
+}
+#right{
+    margin-left: 40px;
+}
+#left img:hover{
+    transform: scale(1.03);
+}
+#red{
+    color: #800000;
+    font-size: 15px
+}
+
+#jia{
+    width: 30px;
+    height: 20px
+}
+.shop{
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color: #800000;
+    font-size: 18px
+}
+.shop:hover{
+    background-color: red;
+}
+#wenzi{
+    font-size: 15px
+}
+#xiangqing1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black
+}
+.jieshao1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px
+}
+#pinpai{
+    margin-left: 120px
+}
+#pinpai a{
+    text-decoration: none;
+    color: #800000
+}
+#jieshaoimg{
+    text-align: center
+}

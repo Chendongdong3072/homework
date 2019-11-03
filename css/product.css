@@ -1,0 +1,62 @@
+#daohang,#daohang1,#daohang2{
+    margin-top: 10px
+}
+#daohang a,#daohang1 a,#daohang2 a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: black
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#clear{
+   clear: both
+}
+#left a,#right a{
+    text-decoration: none;
+    color: black;
+}
+span a{
+    text-decoration: none;
+    color: black
+}
+#left a:hover,#right a:hover,#daohang a:hover,#daohang1 a:hover,#daohang2 a:hover,#index a:hover{
+    background-color: #800000;
+    color:white;
+}
+#left input{
+    width: 30px
+}
+.xiangqing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xiangqing1{
+    text-align: center;
+}
+.xiangqing1 img{
+    width: 100%;
+    transition: 1s;
+}
+.xiangqing1 img:hover{
+    transform: scale(1.1);
+}
+#page{
+    text-align: center;
+    padding: 10px;
+}
+#page a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: 1s;
+}
+#page a:hover{
+    /* border: 1px solid red; */
+    background-color: #800000;
+    color:white;
+}
